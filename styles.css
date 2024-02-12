@@ -1,0 +1,110 @@
+
+/* glbal styling  */
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+  font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0; 
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+.top-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* styling for employeeform and view employee form  */
+#employeeForm, #viewEmployees {
+    margin-top: 15px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* green button styling  */
+.green-btn{
+    padding: 10px;
+    background-color: rgb(1, 192, 1);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+    
+}
+
+.green-btn:hover {
+    background-color: rgb(2, 126, 2);
+}
+
+
+/* edit button styling  */
+.edit-button{
+    padding: 10px;
+    background-color: rgb(236, 10, 10);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.edit-button:hover{
+    background-color: rgb(199, 8, 8);
+}
+.edit-btn-container{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/* unordered list styling  */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* h2 heading styling  */
+h2 {
+    margin-bottom: 10px;
+    color: rgb(80, 78, 78)
+}
+

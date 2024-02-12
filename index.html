@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+
+    <div class="top-container">
+      <h1>Employee Management System</h1>
+
+      <!-- employee form to add employee details -->
+      <div id="employeeForm">
+        <h2>Add Employee Details</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+        <label for="address">Address:</label>
+        <input type="text" id="address" />
+        <label for="employeeId">Employee ID:</label>
+        <input type="text" id="employeeId"/>
+        <label for="designation">Designation:</label>
+        <input type="text" id="designation" />
+        <button class="green-btn" onclick="addEmployee()" >Add Employee</button>
+      </div>
+
+      <!-- container to show list of employees -->
+      <div id="viewEmployees">
+        <h2>Employee List</h2>
+        <div id="employeeList"></div>
+      </div>
+
+      <!-- form to edit employee details.-->
+      <div id="editEmployeeForm" style="display: none">
+        <h2>Edit Employee Detail</h2>
+        <label for="editName">Name:</label>
+        <input type="text" id="editName" />
+        <label for="editAddress">Address:</label>
+        <input type="text" id="editAddress" />
+        <label for="editEmployeeId">Employee ID:</label>
+        <input type="text" id="editEmployeeId" disabled />
+        <label for="editDesignation">Designation:</label>
+        <input type="text" id="editDesignation" />
+        <button class="green-btn" onclick="updateEmployee()">Update Employee</button>
+      </div>
+    </div>
+
+    <!-- adding externol javascript file -->
+    <script src="./script.js"></script>
+  </body>
+</html>
